@@ -89,6 +89,9 @@
     border: 1px solid #000;
     width: 31%;
   }
+  .navigation_links li:hover {
+    border: 1px solid var(--clrprimary);
+  }
   .matches {
     width: 100%;
   }
