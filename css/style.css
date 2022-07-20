@@ -52,8 +52,7 @@ a {
   width: 40%;
   color: #ffffff;
 }
-.info_wrapper {
-}
+
 .hero_info {
   align-items: center;
   padding: 111px 0;
@@ -96,12 +95,10 @@ a {
 }
 .hero_image {
   text-align: center;
-  background: url("../images/heroimg.webp");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: bottom;
 }
-
+.hero_image img{
+  width: 100%;
+}
 /* match part css start  */
 .navigation_links {
   background: #161616;

@@ -24,6 +24,9 @@
     text-overflow: ellipsis;
     font-size: 14px;
   }
+  .hero_info p span{
+    display: none;
+  }
 
   .hero_info {
     align-items: center;
@@ -45,14 +48,33 @@
   }
 }
 @media screen and (max-width: 688px) {
-  .hero_banner {
+  
+  .hero_info h2 {
+    font-size: 26px;
+    line-height: 1.5em;
+    
+  }
+  .hero_info p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffffaf;
+  }
+  
+  .hero_banner{
     flex-direction: column;
+    text-align: center;
   }
-  .hero_banner > div {
-    height: 50%;
-    width: 80%;
+  .hero_banner > div:nth-child(1){
+    width: 65%;
   }
-  .hero_info {
-    padding: 31px 0;
+  .hero_banner > div:nth-child(2){
+    width: 65%;
   }
+  .hero_info{
+    padding: 0 0 21px 0;
+  }
+  .hero_info button {
+    padding: 8px 15px;
+  }
+  
 }
