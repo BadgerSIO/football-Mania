@@ -1,0 +1,58 @@
+@media screen and (max-width: 1320px) {
+  .container {
+    width: 95%;
+  }
+  .hero_banner > div {
+    width: 45%;
+    margin: 0 auto;
+  }
+  .hero_info h2 {
+    font-size: 4vw;
+    font-weight: 700;
+    line-height: 1.2em;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    width: 95%;
+  }
+
+  .hero_info h2 {
+    font-size: 4vw;
+  }
+  .hero_info p {
+    text-overflow: ellipsis;
+    font-size: 14px;
+  }
+
+  .hero_info {
+    align-items: center;
+    padding: 61px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero_info h2 {
+    font-size: 4vw;
+  }
+  .hero_info p {
+    text-overflow: ellipsis;
+    font-size: 12px;
+  }
+
+  .hero_info {
+    align-items: center;
+    padding: 61px 0;
+  }
+}
+@media screen and (max-width: 688px) {
+  .hero_banner {
+    flex-direction: column;
+  }
+  .hero_banner > div {
+    height: 50%;
+    width: 80%;
+  }
+  .hero_info {
+    padding: 31px 0;
+  }
+}
