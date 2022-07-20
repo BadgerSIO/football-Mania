@@ -45,6 +45,10 @@
     width: 65%;
     grid-template-columns: repeat(2, 1fr);
   }
+  /* footer part css  */
+  .footernav li {
+    padding: 10px 10px;
+  }
 }
 @media screen and (max-width: 768px) {
   .hero_info h2 {
@@ -134,5 +138,16 @@
   }
   .matches {
     grid-template-columns: repeat(1, 1fr);
+  }
+  /* footer css  */
+  .footernav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    padding: 24px 0;
+  }
+  .footerpart hr {
+    margin: 20px 0;
   }
 }
