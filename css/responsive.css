@@ -11,6 +11,7 @@
     font-weight: 700;
     line-height: 1.2em;
   }
+  /* hero part css end  */
 }
 @media screen and (max-width: 992px) {
   .container {
@@ -24,13 +25,25 @@
     text-overflow: ellipsis;
     font-size: 14px;
   }
-  .hero_info p span{
+  .hero_info p span {
     display: none;
   }
 
   .hero_info {
     align-items: center;
     padding: 61px 0;
+  }
+  /* hero part css end  */
+  /* match part css start  */
+  .navigation {
+    width: 30%;
+  }
+  .navigation_links a {
+    font-size: 16px;
+  }
+  .matches {
+    width: 65%;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (max-width: 768px) {
@@ -46,35 +59,80 @@
     align-items: center;
     padding: 61px 0;
   }
+  /* hero part css end  */
+
+  /* match part css start  */
+  #livematch {
+    padding: 70px 0;
+  }
+  #livematch > .container {
+    flex-direction: column;
+  }
+  .navigation {
+    width: 100%;
+  }
+  .navigation_links {
+    background: #16161600;
+  }
+  .navigation_links ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navigation_links li:nth-child(2) {
+    margin: 0;
+  }
+  .navigation_links li {
+    border: 1px solid #000;
+    width: 31%;
+  }
+  .matches {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 688px) {
-  
   .hero_info h2 {
     font-size: 26px;
     line-height: 1.5em;
-    
   }
-  .hero_info p{
+  .hero_info p {
     font-size: 14px;
     font-weight: 400;
     color: #ffffffaf;
   }
-  
-  .hero_banner{
+
+  .hero_banner {
     flex-direction: column;
     text-align: center;
   }
-  .hero_banner > div:nth-child(1){
+  .hero_banner > div:nth-child(1) {
     width: 65%;
   }
-  .hero_banner > div:nth-child(2){
+  .hero_banner > div:nth-child(2) {
     width: 65%;
   }
-  .hero_info{
+  .hero_info {
     padding: 0 0 21px 0;
   }
   .hero_info button {
     padding: 8px 15px;
   }
-  
+  /* hero part css end  */
+
+  /* match part css start  */
+  #livematch {
+    padding: 30px 0;
+  }
+  .navigation_links ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navigation_links li:nth-child(2) {
+    margin: 20px 0;
+  }
+  .navigation_links li {
+    width: 90%;
+  }
+  .matches {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

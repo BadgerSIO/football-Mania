@@ -96,10 +96,16 @@ a {
 .hero_image {
   text-align: center;
 }
-.hero_image img{
+.hero_image img {
   width: 100%;
 }
 /* match part css start  */
+#livematch {
+  padding: 130px 0;
+}
+.navigation {
+  width: 25%;
+}
 .navigation_links {
   background: #161616;
   text-align: center;
@@ -111,7 +117,6 @@ a {
 .navigation_links li {
   list-style: none;
   background: #ffffff;
-
   border-radius: 5px;
 }
 .navigation_links li:nth-child(2) {
@@ -126,16 +131,12 @@ a {
 }
 .activeNav {
   background: var(--clrprimary) !important;
+  border: 1px solid var(--clrprimary) !important;
 }
 .activeNav > a {
   color: #ffffff;
 }
-#livematch {
-  padding: 130px 0;
-}
-.navigation {
-  width: 25%;
-}
+
 .matches {
   width: 73%;
   display: grid;
